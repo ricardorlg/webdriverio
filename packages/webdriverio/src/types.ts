@@ -475,8 +475,8 @@ export type Matcher = {
 }
 
 export type ReactSelectorOptions = {
-    props?: object,
-    state?: any[] | number | string | object | boolean
+    props?: Record<string, unknown>
+    state?: Record<string, unknown>
 }
 
 export type MoveToOptions = {
